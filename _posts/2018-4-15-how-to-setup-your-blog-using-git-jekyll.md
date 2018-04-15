@@ -52,7 +52,7 @@ $ git push
 
 You will see jekyll-TeXt-theme files in your github repository.
 
-Done!!! Blog address is [*https://tanmengwen.github.io/blog/*](https://github.com/tanmengwen/blog).
+Done!!! Blog address is [*https://tanmengwen.github.io/blog/*](https://tanmengwen.github.io/blog).
 
 
 If you still have some questions, there is a good video [*How to Install Jekyll Themes*](https://www.youtube.com/watch?v=bty7LHm14CA&index=13&list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1) which shows how to setup the blog step by step.
