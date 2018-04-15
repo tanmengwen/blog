@@ -16,7 +16,7 @@ tag: jekyll
  
 ### 1. Create a git repository using your github account
 
-- For example, my new github repository name is [*tanmengwen.github.io*](https://github.com/tanmengwen/tanmengwen.github.io).
+- For example, my new github repository name is [*blog*](https://github.com/tanmengwen/blog).
 
 ### 2. Install jekyll
 
@@ -24,33 +24,35 @@ tag: jekyll
 
 ### 3. Find a blog website template on [*Start Bootstrap*](https://startbootstrap.com/)
 
-- My blog's template is [*Clean blog*](https://startbootstrap.com/template-overviews/clean-blog/)
+- My blog's template is [*jekyll-TeXt-theme*](https://github.com/kitian616/jekyll-TeXt-theme)
 - Download the template file.
 
-### 4. Start jekyll serve and review Clean blog website
+### 4. Start jekyll serve and review jekyll-TeXt-theme blog website
 
 
 ```
-$ cd ~/startbootstrap-clean-blog-jekyll
+$ cd ~/jekyll-TeXt-theme
 $ bundle exec jekyll serve
 ```
 
-Using the browser open the server address: http://127.0.0.1:4000/
+> In _config.yml file: baseurl: /blog
+
+Using the browser open the server address: http://127.0.0.1:4000/blog
 
 ### 5. Deploy your site using GitHub for free
 
 ```
-$ cd ~/startbootstrap-clean-blog-jekyll
+$ cd ~/jekyll-TeXt-theme
 $ git init
 $ git add .
 $ git commit -am "first commit"
-$ git remote add origin https://github.com/tanmengwen/tanmengwen.github.io.git
+$ git remote add origin https://github.com/tanmengwen/blog.git
 $ git push
 ```
 
-You will see Clean blog files in your github repository.
+You will see jekyll-TeXt-theme files in your github repository.
 
-Done!!! Blog address is [*https://tanmengwen.github.io/*](https://github.com/tanmengwen/tanmengwen.github.io).
+Done!!! Blog address is [*https://tanmengwen.github.io/blog/*](https://github.com/tanmengwen/blog).
 
 
 If you still have some questions, there is a good video [*How to Install Jekyll Themes*](https://www.youtube.com/watch?v=bty7LHm14CA&index=13&list=PLm_Qt4aKpfKijgP0rDH7FSJOlS9IBGbT1) which shows how to setup the blog step by step.
