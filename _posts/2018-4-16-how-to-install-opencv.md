@@ -6,12 +6,15 @@ tag: cv
 ---
 
 ## Install required packages for OpenCV
+
 - [Ref link](https://docs.opencv.org/2.4.13.6/doc/tutorials/introduction/linux_install/linux_install.html#required-packages)
+
 ```
 sudo apt-get install build-essential
 sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
 sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 ```
+
 ## Download OpenCV
 Download link: [https://docs.opencv.org/](https://docs.opencv.org/)
 In this link, there are all versions of opencv. I use [opencv 2.4](https://docs.opencv.org/2.4.13.6.zip) usually.
