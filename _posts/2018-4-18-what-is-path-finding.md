@@ -12,6 +12,7 @@ tag: cv
 
 ### Dijkstra’s Algorithm
 - Instead of exploring all possible paths equally, it favors lower cost paths. We can assign lower costs to encourage moving on roads, higher costs to avoid forests, higher costs to discourage going near enemies, and more. When movement costs vary, we use this instead of Breadth First Search.
+
 ### Greedy Best First Search
 - In Dijkstra’s Algorithm we used the actual distance from the start for the priority queue ordering. Here instead, in Greedy Best First Search, we’ll use the estimated distance to the goal for the priority queue ordering. The location closest to the goal will be explored first.
 
@@ -37,7 +38,7 @@ while not frontier.empty():
          came_from[next] = current
 ```
 
- ![Alt text](/images/posts/path-finding1.png)
+![Alt text](/blog/assets/images/posts/path-finding1.png)
 
 -  You’ll find that when Greedy Best-First Search finds the right answer, A* finds it too, exploring the same area. When Greedy Best-First Search finds the wrong answer (longer path), A* finds the right answer, like Dijkstra’s Algorithm does, but still explores less than Dijkstra’s Algorithm does.
 
