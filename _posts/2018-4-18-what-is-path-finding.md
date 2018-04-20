@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to path-finding"
 date:   2018-4-15 10:00:00 -0400
-tag: cv
+tag: Path-Planning
 ---
 
 ## [Amit’s A* Pages](http://theory.stanford.edu/~amitp/GameProgramming/)
