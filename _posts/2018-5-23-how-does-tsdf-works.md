@@ -16,9 +16,13 @@ tag: cv
 ![Alt text](/blog/assets/images/posts/tsdf2.png)
 
 ### 算法流程
+
 - 当相机测量到的深度值和网格到光心的距离近似相等时，更新网格加权融合时，加权的值小，也说明网格离待重建的场景表面近。
+
 ![Alt text](/blog/assets/images/posts/tsdf4.png)
+
 - 求取sdf示意图: 
+
 ![Alt text](/blog/assets/images/posts/tsdf.png)
 ![Alt text](/blog/assets/images/posts/tsdf5.png)
 ![Alt text](/blog/assets/images/posts/tsdf6.png)
@@ -115,130 +119,9 @@ for (int i = 0; i < voxel_grid_dim_x * voxel_grid_dim_y * voxel_grid_dim_z; i++)
 ```
 
 #### Refernece: 
-- https://github.com/andyzeng/tsdf-fusion
-- https://github.com/personalrobotics/OpenChisel/blob/master/open_chisel/src/ProjectionIntegrator.cpp
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5
-
-
-
-
-
-
-
+- [https://github.com/andyzeng/tsdf-fusion](https://github.com/andyzeng/tsdf-fusion)
+- [https://github.com/personalrobotics/OpenChisel/blob/master/open_chisel/src/ProjectionIntegrator.cpp](https://github.com/personalrobotics/OpenChisel/blob/master/open_chisel/src/ProjectionIntegrator.cpp)
 
 
 
