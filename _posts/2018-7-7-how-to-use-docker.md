@@ -2,7 +2,7 @@
 layout: post
 title:  "How to use docker"
 date:   2018-7-7 10:45:13 -0400
-tag: jekyll
+tag: docker
 ---
 
 ### Ubuntu 14.04 安装 Docker

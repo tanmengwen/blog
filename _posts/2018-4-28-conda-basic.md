@@ -2,7 +2,7 @@
 layout: post
 title:  "conda--安装与基本使用"
 date:   2018-4-28 10:00:00 -0400
-tag: cv
+tag: python
 ---
 
 ## Miniconda installer for Linux
