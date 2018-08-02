@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "matplotlib绘图基本使用用例"
-date:   2018-4-28 10:00:00 -0400
+date:   2018-8-2 10:00:00 -0400
 tag: python
 ---
 
@@ -36,6 +36,26 @@ plt.xlabel('x axis label')
 plt.ylabel('y axis label')
 plt.title('Sine and Cosine')
 plt.legend(['Sine', 'Cosine'])
+plt.show()
+```
+```
+import matplotlib as mpl
+import numpy as np
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+
+data = np.loadtxt("~/data.txt")
+
+x = data[0:, 1]
+y = data[0:, 2]
+z = data[0:, 3]
+
+fig = plt.figure()
+ax = fig.gca(projection='3d')
+
+ax.plot(x, y, z, label='parametric curve')
+ax.legend()
+
 plt.show()
 ```
 
